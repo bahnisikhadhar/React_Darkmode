@@ -12,6 +12,7 @@ function App() {
     <div className="toggle_btn">
       <button onClick={toggleDarkMode}>Toggle</button>
     </div>
+    
     <div className="container">
       <div className="img_container">
        { darkMode? <img src="https://cdn.pixabay.com/photo/2018/03/25/20/17/lion-3260558__340.jpg" alt="image" /> : <img src="https://wildlifeinformer.com/wp-content/uploads/2022/07/Lion.jpg" alt="" height="70vh"/> }
