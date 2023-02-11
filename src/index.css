@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.text_container{
+  width: 50%;
+}
+.img_container{
+  height: 50vh;
+}
+img{
+  height: 100%;
+}
+.toggle_btn{
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+button{
+  padding: 1rem;
+}
